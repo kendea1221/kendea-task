@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+*{
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'DotGothic16', sans-serif;
+    background-color: #101010;
+    color: white;
+    font-size: 20px;
+}
+
+@keyframes main-title{
+    0%{color:#ff0053;}
+    12%{color:#ff5353;}
+    24%{color:#ffcf53;}
+    36%{color:#e8ff53;}
+    48%{color:#53ff5d;}
+    60%{color:#53ffbc;}
+    72%{color:#5393ff;}
+    84%{color:#ca53ff;}
+    100%{color:#ff53bd;}
+}
+
+@keyframes select{
+    0%{color:#ff53bd;}
+    12%{color:#ff0053;}
+    24%{color:#ff5353;}
+    36%{color:#ffcf53;}
+    48%{color:#e8ff53;}
+    60%{color:#53ff5d;}
+    72%{color:#53ffbc;}
+    84%{color:#5393ff;}
+    100%{color:#ca53ff;}
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+select{
+    border-radius: 20px;
+    font-size: 20px;
+    animation: select 10s infinite;
+}
+ul{
+    font-size: 20px;
+}
+
+.main-title{
+        animation: main-title 10s infinite;
+}
+
+a:hover{
+    color: aqua;
+}
+
+p:hover{
+    color: rgb(208, 0, 255);
+}
+
+button{
+    font-family: 'Rubik Iso', cursive;
+}
